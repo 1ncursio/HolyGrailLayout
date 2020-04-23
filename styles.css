@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+}
+
+#whole__wrapper {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header,
+footer {
+  height: 150px;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+}
+
+nav {
+  width: 200px;
+}
+
+main {
+  flex: 1;
+}
+
+aside {
+  width: 200px;
+}
+
+@media screen and (max-width: 900px) {
+  #whole__wrapper {
+    width: 100%;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  nav,
+  aside {
+    width: 100%;
+  }
+
+  main {
+    order: -1;
+  }
+}
