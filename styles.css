@@ -2,6 +2,11 @@ body {
   margin: 0;
 }
 
+* {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  background-color: rgba(100, 197, 144, 0.3);
+}
+
 #whole__wrapper {
   width: 800px;
   margin: 0 auto;
